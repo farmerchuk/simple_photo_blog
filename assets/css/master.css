@@ -1,0 +1,121 @@
+/*
+  ############################
+  Layout
+  ############################
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  ############################
+  Clearfix
+  ############################
+*/
+
+.cf::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*
+  ############################
+  Primary Styles
+  ############################
+*/
+
+body {
+  background: linear-gradient(to bottom, #d1dbbd, #fcfff5) no-repeat;
+  font: normal 18px/27px "Roboto Condensed", sans-serif;
+  color: #3e606f;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*
+  ############################
+  Header
+  ############################
+*/
+
+header {
+  padding: 20px 20px 0 20px;
+}
+
+h1 {
+  background: transparent url("../images/camera_icon.png") 0 0 no-repeat;
+  padding: 51px 0 38px 110px;
+  font-size: 36px;
+  color: #193441;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-top: 60px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  background: #fcfff5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  color: #c7d4c9;
+  padding: 16px 44px 16px 44px;
+}
+
+nav a:hover {
+  background: #91aa9d;
+  color: #fcfff5;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+  ############################
+  body
+  ############################
+*/
+
+main {
+  padding: 30px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 2px 5px 10px #b5b5b5;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+main p {
+  margin-top: 22px;
+}
+
+main.img_head {
+  margin-bottom: 30px;
+}
+
+main.img_side {
+  float: right;
+  margin-top: 22px;
+  margin-left: 22px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 16px 0;
+}
